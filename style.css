@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+html {
+    background-color: #191724;
+    font-family: 'Noto Sans', monospace;
+}
+
+code{
+    font-family: 'JetBrains Mono',monospace;
+    font-size: small;
+}
+
+.neofetch-div{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border: 2px solid #ebbcba;
+    border-radius: 50px;
+}
+
+.neofetch-img{
+    width: 25%;
+}
+
+.neofetch{
+    width:25%;
+    resize: both;
+}
+
+footer{
+    display: flex;
+    margin-top: auto;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}
+
+.Name-div{
+
+}
