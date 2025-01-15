@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 html {
-    background-color: #191724;
+    color: #181A1b;
     font-family: 'Noto Sans', monospace;
 }
 
@@ -28,15 +28,16 @@ code{
     resize: both;
 }
 
-footer{
-    display: flex;
-    margin-top: auto;
-    position: relative;
-    height: 100px;
-    margin-top: -100px;
-    clear: both;
-}
-
 .Name-div{
 
+}
+
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    position-anchor: 5%;
+}
+
+.footer-github{
+    
 }
