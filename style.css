@@ -2,13 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 html {
-    color: #181A1b;
+    background-color: #181A1b;
     font-family: 'Noto Sans', monospace;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.Nombre{
+    color: #ffffff
+}
+
+.Soy{
+    color:rgb(194, 255, 255);
 }
 
 code{
     font-family: 'JetBrains Mono',monospace;
     font-size: small;
+    color: #ffffff;
 }
 
 .neofetch-div{
@@ -29,15 +43,33 @@ code{
 }
 
 .Name-div{
+    flex-direction: column;
+    justify-items: center;
+}
 
+#Projects{
+    text-align: center;
+    font-family: 'JetBrains Mono',monospace;
+    font-size: large;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 footer{
+    background-color: #181A1b;
     display: flex;
     flex-wrap: nowrap;
     position-anchor: 5%;
+    position: fixed;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    
 }
 
 .footer-github{
-    
+    width: 20px;
+    height: 20px;
 }
