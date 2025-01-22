@@ -53,11 +53,11 @@ code{
     font-size: large;
     color: #ffffff;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 footer{
-    background-color: #181A1b;
+    background-color: #232136;
     display: flex;
     flex-wrap: nowrap;
     position-anchor: 5%;
