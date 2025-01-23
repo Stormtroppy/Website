@@ -52,8 +52,34 @@ code{
     font-family: 'JetBrains Mono',monospace;
     font-size: large;
     color: #ffffff;
+    display: block;
+}
+
+.Projects-Container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+
+}
+
+.Projects-Yumms {
+    border: #f6c177;
+    width: 100px;
+    height: 100px;
+    background-color: #f6c177;
+    border-radius: 30%;
+    color: #e0def4;  
+}
+
+.Projects-smmuY {
+    border: #eb6f92;
+    width: 100px;
+    height: 100px;
+    background-color: #eb6f92;
+    border-radius: 30%;
+    color: #e0def4;
 }
 
 footer{
