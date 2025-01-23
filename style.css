@@ -58,16 +58,19 @@ code{
 .Projects-Container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    overflow-y: hidden;
+    overflow-x: auto;
     justify-content: center;
-    gap: 10%;
+    gap: 5%;
+    max-width: 100%;
+    padding: 10px;
 
 }
 
 .Projects-Yumms {
     border: #f6c177;
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     background-color: #f6c177;
     border-radius: 30%;
     color: #e0def4;  
@@ -75,8 +78,17 @@ code{
 
 .Projects-smmuY {
     border: #eb6f92;
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
+    background-color: #eb6f92;
+    border-radius: 30%;
+    color: #e0def4;
+}
+
+.Projects-Lorem {
+    border: #eb6f92;
+    width: 50%;
+    height: 50%;
     background-color: #eb6f92;
     border-radius: 30%;
     color: #e0def4;
