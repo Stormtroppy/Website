@@ -67,6 +67,10 @@ code{
 
 }
 
+img {
+    border-radius: 50%;
+}
+
 .Projects-Yumms {
     border: #f6c177;
     width: 50%;
@@ -95,7 +99,8 @@ code{
 }
 
 footer{
-    background-color: #232136;
+    background-color: #181A1b;
+    color: #e0def4;
     display: flex;
     flex-wrap: nowrap;
     position-anchor: 5%;
