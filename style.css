@@ -16,7 +16,7 @@ h2 {
 
 .links{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .Nombre{
@@ -108,8 +108,8 @@ h2 {
 }
 
 .badges {
-    padding-right: 300px;
-    padding-left: 300px;
+    padding-right: 400px;
+    padding-left: 400px;
 }
 
 .certificados {
