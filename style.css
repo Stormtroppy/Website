@@ -29,13 +29,36 @@ h2 {
     color:#89dceb;
 }
 
-.neofetch-div{
+.neofetch-div {
     display: flex;
-    justify-items: center;
-    align-items: center;
+    justify-content: space-evenly; /* Distribute image and text */
+    align-items: center; /* Vertically align image and text */
     border: 2px solid #f5c2e7;
     border-radius: 50px;
-    padding: 10px; /* Add padding here */
+    padding: 10px;
+    position: relative;
+}
+
+.neofetch-div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://github.com/zhichaoh/catppuccin-wallpapers/blob/main/os/arch-magenta-blue-1920x1080.png?raw=true');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.4; /* Apply opacity to the background image */
+    z-index: -1;
+    border-radius: inherit;
+    filter: brightness(50%);
+}
+
+.neofetch-bg {
+    opacity: 0.5;
+    filter: brightness(50%);
 }
 
 .neofetch{
@@ -45,6 +68,12 @@ h2 {
     color: #cdd6f4;
     resize: both;
     white-space: pre-wrap; /* Enable text wrapping */
+}
+
+@media (min-width: 768px) {
+    .neofetch-img {
+        width: 20%; /* Example: Set the image width to 40% of its parent on non-phone screens */
+    }
 }
 
 @media (max-width: 768px) {
