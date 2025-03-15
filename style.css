@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 html {
-    background-color: #181A1b;
+    background-color: #1e1e2e;
     font-family: 'Noto Sans', monospace;
     padding-bottom: 50px;
 }
@@ -11,27 +11,29 @@ h2 {
     text-align: center;
     font-family: 'JetBrains Mono',monospace;
     font-size: large;
-    color: #ffffff; 
+    color: #cdd6f4;
 }
 
 .links{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    background-color: #11111b;
+    padding: 15px 0;
 }
 
 .Nombre{
-    color: #ffffff
+    color: #cdd6f4
 }
 
 .Soy{
-    color:rgb(194, 255, 255);
+    color:#89dceb;
 }
 
 .neofetch-div{
     display: flex;
     justify-items: center;
     align-items: center;
-    border: 2px solid #ebbcba;
+    border: 2px solid #f5c2e7;
     border-radius: 50px;
     padding: 10px; /* Add padding here */
 }
@@ -40,7 +42,7 @@ h2 {
     display: inline-block; /* Change display property */
     font-family: 'JetBrains Mono', monospace;
     font-size: small;
-    color: #ffffff;
+    color: #cdd6f4;
     resize: both;
     white-space: pre-wrap; /* Enable text wrapping */
 }
@@ -60,7 +62,7 @@ h2 {
         display: block; /* Change display property */
         font-family: 'JetBrains Mono', monospace;
         font-size: small;
-        color: #ffffff;
+        color: #cdd6f4;
         white-space: pre-wrap;
         width: 100%; /* Take full width */
         box-sizing: border-box; /* Include padding and border in width calculation */
@@ -76,7 +78,7 @@ h2 {
     text-align: center;
     font-family: 'JetBrains Mono',monospace;
     font-size: large;
-    color: #ffffff;
+    color: #cdd6f4;
     display: block;
 }
 
@@ -93,30 +95,30 @@ h2 {
 }
 
 .projects-Yumms {
-    border: #f6c177;
+    border: #f9e2af;
     width: 50%;
     height: 50%;
-    background-color: #f6c177;
+    background-color: #f9e2af;
     border-radius: 30%;
-    color: #e0def4;  
+    color: #cdd6f4;  
 }
 
 .projects-smmuY {
-    border: #eb6f92;
+    border: #f38ba8;
     width: 50%;
     height: 50%;
-    background-color: #eb6f92;
+    background-color: #f38ba8;
     border-radius: 30%;
-    color: #e0def4;
+    color: #cdd6f4;
 }
 
 .projects-Lorem {
-    border: #eb6f92;
+    border: #f38ba8;
     width: 50%;
     height: 50%;
-    background-color: #eb6f92;
+    background-color: #f38ba8;
     border-radius: 30%;
-    color: #e0def4;
+    color: #cdd6f4;
 }
 
 #porque {
@@ -147,7 +149,7 @@ ol {
 }
 
 footer{
-    background-color: #181A1b;
+    background-color: #11111b;
     color: #e0def4;
     display: flex;
     flex-flow: row nowrap;
@@ -158,7 +160,7 @@ footer{
     align-items: center;
     width: 100%;
     font-size: large;
-    height: 30px; /*added height*/
+    padding: 5px 0;
 }
 
 .footer-text {
