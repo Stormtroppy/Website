@@ -80,7 +80,7 @@ h2 {
     display: block;
 }
 
-.Projects-Container {
+.projects-Container {
     display: flex;
     flex-direction: row;
     overflow-y: hidden;
@@ -92,7 +92,7 @@ h2 {
 
 }
 
-.Projects-Yumms {
+.projects-Yumms {
     border: #f6c177;
     width: 50%;
     height: 50%;
@@ -101,7 +101,7 @@ h2 {
     color: #e0def4;  
 }
 
-.Projects-smmuY {
+.projects-smmuY {
     border: #eb6f92;
     width: 50%;
     height: 50%;
@@ -110,7 +110,7 @@ h2 {
     color: #e0def4;
 }
 
-.Projects-Lorem {
+.projects-Lorem {
     border: #eb6f92;
     width: 50%;
     height: 50%;
