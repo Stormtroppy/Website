@@ -33,18 +33,38 @@ h2 {
     align-items: center;
     border: 2px solid #ebbcba;
     border-radius: 50px;
-}
-
-.neofetch-img{
-    width: 25%;
+    padding: 10px; /* Add padding here */
 }
 
 .neofetch{
-    width:25%;
-    font-family: 'JetBrains Mono',monospace;
+    display: inline-block; /* Change display property */
+    font-family: 'JetBrains Mono', monospace;
     font-size: small;
     color: #ffffff;
     resize: both;
+    white-space: pre-wrap; /* Enable text wrapping */
+}
+
+@media (max-width: 768px) {
+    .neofetch-div {
+        flex-direction: column;
+        border-radius: 25px; /* Adjust as needed */
+        align-items: baseline;
+    }
+
+    .neofetch-img {
+        width: 100%;
+    }
+
+    .neofetch {
+        display: block; /* Change display property */
+        font-family: 'JetBrains Mono', monospace;
+        font-size: small;
+        color: #ffffff;
+        white-space: pre-wrap;
+        width: 100%; /* Take full width */
+        box-sizing: border-box; /* Include padding and border in width calculation */
+    }
 }
 
 .Name-div{
@@ -105,11 +125,20 @@ h2 {
     align-content: center;
     justify-content: center;
     color: #e0def4;
+    text-align: center;
+}
+
+ol {
+    list-style-position: inside;
+    padding: 0;
 }
 
 .badges {
-    padding-right: 400px;
-    padding-left: 400px;
+    margin: 0 auto;
+    max-width: 60%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
 }
 
 .certificados {
